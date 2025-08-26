@@ -2,7 +2,6 @@ package Practice;
 
 import java.util.Map;
 import java.util.Map.Entry;
-
 import java.util.LinkedHashMap;
 
 public class FirstNonRepeatedCharacter {
