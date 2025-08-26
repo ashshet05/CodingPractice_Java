@@ -2,10 +2,8 @@ package Practice;
 
 import java.util.Map;
 import java.util.Map.Entry;
-<<<<<<< HEAD
 import java.util.Set;
-=======
->>>>>>> 5325947d101f27d19a60465db11b7d422fb3fce0
+
 import java.util.LinkedHashMap;
 
 public class FirstNonRepeatedCharacter {
@@ -25,11 +23,7 @@ public class FirstNonRepeatedCharacter {
 			else
 				map.put(str.charAt(i), map.get(str.charAt(i))+1);
 		}
-		
-<<<<<<< HEAD
-		//to print first non-repeated character
-=======
->>>>>>> 5325947d101f27d19a60465db11b7d422fb3fce0
+
 		for(Entry<Character,Integer> entry:map.entrySet())
 		{
 			if(entry.getValue()==1)
@@ -53,6 +47,7 @@ public class FirstNonRepeatedCharacter {
 			}
 				
 		}
+
 
 	}
 
