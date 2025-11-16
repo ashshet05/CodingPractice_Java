@@ -12,7 +12,7 @@ public class PrintOccuranceOfWordsInGivenString
 		String str="   I Love Love Coding and and and Learning Learning Learning  ";
 		
 		//Use HashMap or LinkedHashMAP for storing Words and counts
-		Map<String, Integer> map=new LinkedHashMap<String, Integer>();
+		Map<String, Integer> map=new HashMap<String, Integer>();
 		//Count should be initialized to 1
 		Integer count=1;
 		
