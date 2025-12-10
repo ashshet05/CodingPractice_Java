@@ -13,6 +13,7 @@ public class FibonacciSeries {
 			System.out.print(sum+" ");
 			n1=n2;
 			n2=sum;
+			System.out.println("Just checking");
 		}
 	}
 
