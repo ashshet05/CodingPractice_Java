@@ -39,3 +39,23 @@ public class PrintOccuranceOfWordsInGivenString
 	}
 
 }
+
+/*
+        //print first non repeated character
+        String str="I Love Love Coding and and and Learning Learning Learning ";
+        
+        String[] arr=str.toLowerCase().trim().split(" ");
+        Map<String,Integer> map=new LinkedHashMap<String,Integer>();
+        Integer count=1;
+        for(int i=0;i<arr.length;i++)
+        {
+            if(!map.containsKey(arr[i]))
+            map.put(arr[i],count);
+            else
+            map.put(arr[i],map.get(arr[i])+1);
+        }
+        for(String key:map.keySet())
+        {
+            System.out.println(key+" : "+map.get(key));
+        }
+*/
